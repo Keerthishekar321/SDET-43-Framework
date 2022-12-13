@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Suite">
+<groups>
+<run>
+<include name="smoke"></include>
+</run>
+</groups>
+  <test thread-count="1" name="Test">
+    <classes>
+      <class name="Practice_Package.Sample3"/>
+      <class name="Practice_Package.Sample2"/>
+      <class name="Practice_Package.Sample1"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
